@@ -10,7 +10,7 @@ Programming Language used - JAVA
 2. Project has 2 classes – State.java andTicTacToeAlphaBeta.java
 3. Although code has descriptive variables and is self-explanatory ,inline comments are there for explanation.
 
-##GAMEPLAY DETAILS
+## GAMEPLAY DETAILS
 
 1. Constraints used in Algorithm –
 	• Depth cutoff limit =6
@@ -25,7 +25,7 @@ Programming Language used - JAVA
 		Eval(s)=6X3 +3X2(s)+X1(s)−(6O3 +3O2(s)+O1(s))
 	Playing on this level will result in more draws and computer wins. User may win very rarely
 
-##How to Play
+## How to Play
 
 1. Compile and run the source code in command line or IDE having java in system.
 2. UI will be shown where you play the game.
