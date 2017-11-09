@@ -13,8 +13,8 @@ Programming Language used - JAVA
 ## GAMEPLAY DETAILS
 
 1. Constraints used in Algorithm –
-• Depth cutoff limit =6
-• Time cutoff = 10 seconds
+    - Depth cutoff limit =6
+    - Time cutoff = 10 seconds
 2. Levels – 3 levels: Easy, Medium, Hard
    • Easy – Generate random computer moves. Human player will win more often
    • Medium – Used evaluation function :
