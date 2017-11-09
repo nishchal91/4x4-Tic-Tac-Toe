@@ -17,14 +17,12 @@ Programming Language used - JAVA
     - Time cutoff = 10 seconds
 2. Levels – 3 levels: Easy, Medium, Hard
     - Easy – Generate random computer moves. Human player will win more often
-    - Medium – Used evaluation function :
-     
-	 `Eval(s) = 3(O1 + O2 +O3) – 2(X1+X2+X3)` 
-	 
+    - Medium – Used evaluation function :     
+	 `Eval(s) = 3(O1 + O2 +O3) – 2(X1+X2+X3)`	 
     Where Xn is the number of rows, columns, or diagonals with exactly n X 's and no O’s. Similarly, On is the number of rows, columns, or diagonals with just n O’s
     This will give user the time to make the game draw rather than winning at a point or user may win fewer times.
     - Hard – Used Evaluation function:
-     'Eval(s)=6X3 +3X2(s)+X1(s)−(6O3 +3O2(s)+O1(s))'
+     `Eval(s)=6X3 +3X2(s)+X1(s)−(6O3 +3O2(s)+O1(s))`
     Playing on this level will result in more draws and computer wins. User may win very rarely
 
 ## How to Play
